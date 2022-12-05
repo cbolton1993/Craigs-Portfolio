@@ -5,14 +5,16 @@
 }
 body {
     font-family: 'Roboto Condensed', sans-serif;
+    background-color: rgb(255, 255, 255)
+;
 }
-.headcont,
+#headcont,
 .navlinks,
 .cne {
     display: flex;
 }
 
-.headcont{
+#headcont{
     flex: 2;
 }
 
@@ -50,7 +52,6 @@ header {
     align-items: center;
 }
 .alignment {
-    vertical-align: top;
     display: inline-block;
 }
 
@@ -98,3 +99,8 @@ h2 {
 #aboutme {
     text-align: center;
 }
+
+@media screen and (max-width: 1080px) {
+        
+}
+    
