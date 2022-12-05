@@ -6,18 +6,76 @@
 body {
     font-family: 'Roboto Condensed', sans-serif;
 }
+.headcont,
+.navlinks,
+.cne {
+    display: flex;
+}
+
+.headcont{
+    flex: 2;
+}
+
+.navlinks{
+    justify-content: space-around;
+    list-style: none;
+    text-decoration: none;
+}
+
+.navlink{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.cne{
+    flex: 1;
+    list-style: none;
+    justify-content: space-around;
+    text-decoration: none;
+}
+
+.cnelink {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+nav {
+    flex: 1;
+}
+
+header {
+    display: block;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+}
+.alignment {
+    vertical-align: top;
+    display: inline-block;
+}
 
 .Logo{
     float: right;
     padding-right: 20px;
   }
 
-  .title{
+.title {
     text-align: center;
-  }
+    text-decoration: underline;
+}
+
+.headpic {
+    vertical-align: top;
+    height: 30vh;
+    margin-right: 3%;
+    margin-bottom: 2%;
+   
+}
 
 footer{
-    display: block;
+    width: 90%;
+    margin: auto;
+    flex: 1;
     color: rgb(8, 8, 8);
     font-size: .90em;
     }
@@ -27,68 +85,16 @@ footer{
       text-align: start;
     }
 
-    .headpic {
-        height: 30vh;
-        display: block;
-        margin: 0 auto;
-        margin-right: 3%;
-        margin-bottom: 2%;
-        position: relative;
-        float: left;
-    }
+      .Quickabout {
+        width: 90%;
+        margin: auto;
+        padding-bottom: 30px;
+      }
+    
+h2 {
+    text-align: center;
+}
 
-a:link {
-    color: rgb(228, 148, 0);
-  }
-  
-  a:visited {
-    color: rgb(10, 84, 100);
-  }
-  
-  a:hover {
-    color: rgb(238, 255, 0);
-  }
-  
-  a:active {
-    color: rgb(255, 0, 0);
-  }
-
-    ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        width: 200px;
-        background-color: #f1f1f1;
-      }
-      
-      li a {
-        display: block;
-        color: #000;
-        padding: 8px 16px;
-        text-decoration: none;
-      }
-
-      #topnav {
-        overflow: hidden;
-        display: inline-block;
-        margin:0 auto;
-        float: none;
-        position: relative;
-        margin-bottom: 20px;
-        background-color: rgb(135, 104, 162);
-        border: solid 1px #000000
-      }
-      
-      #topnav a {
-        color: #000000;
-        text-align: center;
-        padding: 14px 16px;
-        font-size: .70em;
-        text-decoration: none;
-        border: solid 1px #918e8e
-      }
-      
-      #topnav a:hover {
-        background-color: rgb(80, 181, 190);
-        color: black;
-      }
+#aboutme {
+    text-align: center;
+}
