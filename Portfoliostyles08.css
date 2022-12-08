@@ -1,0 +1,152 @@
+/*No update for mobile adaptability required for new elements*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: rgb(255, 255, 255);
+}
+
+#topnav {
+    position: relative;
+    align-items: center;
+}
+
+.navlinks {
+    list-style: none;
+    float: none;
+    position: absolute;
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 100%;
+}
+
+.navlink{
+    text-decoration: none;
+    font-size: 20px;
+    float: left;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+nav {
+    flex: 1;
+    height: 60px;
+    background-color: rgb(255, 0, 76);
+    box-shadow: 5px 5px 10px rgb(133, 127, 127);
+}
+
+header {
+    display: block;
+    margin: auto;
+    align-items: center;
+}
+
+
+.alignment {
+    float: left;
+    padding-left: 30px;
+}
+
+.references {
+    display: flex;
+    justify-content: center;
+}
+
+.linkdin {
+    margin: auto;
+    color: rgb(255, 0, 76);
+    text-align: center;
+    text-decoration: none;
+
+}
+
+.GitHub {
+    margin: auto;
+    color: rgb(255, 0, 76);
+    text-align: center;
+    text-decoration: none;
+}
+
+.imglogo {
+    float: none;
+    text-align: center;
+    flex: 2;
+    padding-top: 10px;
+    justify-content: center;
+    margin: auto;
+    width: 75%;
+}
+
+.links {
+    list-style: none;
+}
+
+.Logo {
+    display: block;
+    margin: auto;
+    height: 30vh;
+}
+
+.title {
+    display: flex;
+    float: left;
+    color: rgb(255, 255, 255);
+    padding-top: 10px;
+    padding-left: 5px;
+}
+
+.headpic {
+    display: block;
+    margin: auto;
+    height: 20vh;
+}
+
+footer{
+    position: fixed;
+    left: 0;   
+    bottom: 0;  
+    width: 100%;
+    text-align: center;
+    height: 60px;
+    padding-top: 20px;
+    background-color: rgb(255, 0, 76);
+    color: rgb(255, 255, 255);
+    box-shadow: 5px 5px 10px rgb(133, 127, 127);
+    }
+
+    table {
+        float: none;
+        text-align: center;
+        padding-top: 10px;
+        justify-content: center;
+        margin: auto;
+        border-collapse: collapse;
+    }
+
+    table, th, td {
+        border: 0.1em solid #000
+    }
+    
+@media screen and (max-width: 1080px) {
+        .title {
+            display: none;
+        }
+
+        .alignment{
+            float: none;
+            padding-left: 0px;
+        }
+        footer {
+            height: 40px;
+            padding-top: 10px;
+        }
+}
+

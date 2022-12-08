@@ -99,7 +99,7 @@ header {
     color: rgb(255, 255, 255);
     padding-top: 10px;
     padding-left: 5px;
-    
+    text-shadow: 2px black;
 }
 
 .headpic {
@@ -135,3 +135,5 @@ footer{
             padding-top: 10px;
         }
 }
+/*No update for mobile adaptability required for new elements*/
+
